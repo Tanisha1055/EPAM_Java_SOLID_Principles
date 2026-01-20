@@ -27,10 +27,15 @@ public class Main {
         //whether it is still null or not, then do the logic. For the method 2 of creating
         // a singleton class, we need to make static inner class , as static inner class is
         //loaded at the time of initialisation (reference), jvm does that automatically for
-        //performance improvement. So the inisde we can keep the instance variavle to be
-        //final ,so thatonly once it can be initialised , and the getInstance method would
-        // only return trhat instance, we need static class for sure , not to do obj creation
-        // and to keep the instance avriable, and static , classes are inner classes . So hence
+        //performance improvement. So the inside we can keep the instance variable to be
+        //final ,so that only once it can be initialised , and the getInstance method would
+        // only return that instance, we need static class for sure , not to do obj creation
+        // and to keep the instance variable, and static , classes are inner classes . So hence
         //that.
+
+        //It is used internally by SpringBoot , by SpringContainer for obj creation, as
+        //Obj are created as beans. It is possible to break the pattern, in case of
+        //multithreading, Singleton is no safe as mul threads are able to create obj , so
+        // to overcome that we can make use of synchronised keyword.
     }
 }

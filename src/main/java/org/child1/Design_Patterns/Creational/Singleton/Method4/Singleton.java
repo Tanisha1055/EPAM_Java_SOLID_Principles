@@ -17,4 +17,8 @@ public class Singleton {
         return obj;
     }
 
+    //In eager initialization, the Singleton instance is created when the class is loaded
+    //The Java ClassLoader loads classes in a thread-safe way. This means the static field (INSTANCE) is initialized only once, even if multiple threads access the class at the same time.
+    //No additional synchronization is needed.
+
 }

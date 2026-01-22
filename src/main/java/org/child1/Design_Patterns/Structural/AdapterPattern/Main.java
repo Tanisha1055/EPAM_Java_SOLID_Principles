@@ -22,6 +22,9 @@ public class Main {
         //in order to make them compatible , is an good practical example of adapter pattern,
         //It's just that the adapter pattern uses interfaces to wrap the obj , so not exactly
         //the perfect example of this, but somewhat.
+        //what is the different between decorator pattern and adapter , is it that decorator
+        //provide extra functionality in top of the one exisiting , but stragety we are
+        //dynamically providing implementation of method
 
     }
 }

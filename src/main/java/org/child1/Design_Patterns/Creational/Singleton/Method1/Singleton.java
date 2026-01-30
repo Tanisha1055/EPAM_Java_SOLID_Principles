@@ -7,7 +7,7 @@ public class Singleton {
     //Initialised to null intially.
     private static volatile Singleton obj=null;
     public static Singleton getInstance() {
-        if (obj != null) {
+        if (obj == null) {
             synchronized (Singleton.class) // specifies that obj of Singleton class
             {
                 if (obj == null) {

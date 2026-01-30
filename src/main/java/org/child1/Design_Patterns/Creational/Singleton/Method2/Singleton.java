@@ -18,3 +18,7 @@ public class Singleton {
         }
     }
 }
+
+//“The static inner class is not loaded until it is referenced, and class loading in
+// Java is thread-safe, so this gives us lazy initialization without synchronization.”
+//Static initialization runs only once

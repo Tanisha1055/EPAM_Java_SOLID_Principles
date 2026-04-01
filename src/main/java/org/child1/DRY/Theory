@@ -1,0 +1,5 @@
+2. DRY (Don't Repeat Yourself)
+
+-Reuse code by eliminating redundancy.
+-Use abstraction, inheritance, and utility methods to centralize reusable logic.
+

@@ -1,0 +1,5 @@
+4. YAGNI (You Aren’t Gonna Need It)
+
+-Avoid implementing speculative features or functionality not currently needed.
+-Focus on present requirements rather than future abstractions.
+
